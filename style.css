@@ -32,7 +32,7 @@ a {
 .hero {
     border: thin solid red;
     display: flex;
-    
+    padding: 100px;
 }
 
 .hero-left {
@@ -41,6 +41,11 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+}
+
+.header-main {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero-image {
