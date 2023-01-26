@@ -2,12 +2,26 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-.header {
-    border: thin solid red;
-    
+.header, .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    border: medium solid purple;
+    display: flex;
+    justify-content: space-around;
+}
 
 .header-links {
+    border: medium solid red;
+}
+
+.hero {
     border: thin solid red;
 }
