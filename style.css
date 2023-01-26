@@ -24,4 +24,11 @@ a {
 
 .hero {
     border: thin solid red;
+    display: flex;
+}
+
+.hero-left {
+    border: thin solid red;
+    display: flex;
+    flex-direction: column;
 }
