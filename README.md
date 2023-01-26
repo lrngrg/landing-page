@@ -1,2 +1,3 @@
-# landing-page
-Odin Project Landing Page project - html, css, flexbox
+# Landing Page
+
+This is a project completed after completing the CSS and Flexbox portions of The Odin Project's Foundations course.
