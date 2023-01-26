@@ -1,5 +1,12 @@
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.one {
+    border: thin solid red;
 }
 
 .header, .hero {
@@ -19,16 +26,34 @@ a {
 }
 
 .header-links {
-    border: medium solid red;
+    border: thin solid red;
 }
 
 .hero {
     border: thin solid red;
     display: flex;
+    
 }
 
 .hero-left {
     border: thin solid red;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-image {
+    width: 300px;
+    display: flex;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
 }
