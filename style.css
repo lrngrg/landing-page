@@ -16,7 +16,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #E5E7EB
+    font-size: 18px;
 }
 
 .header {
@@ -27,6 +28,7 @@ a {
 
 .header-links {
     border: thin solid red;
+
 }
 
 .hero {
@@ -43,9 +45,14 @@ a {
     align-items: flex-start;
 }
 
-.header-main {
+.hero-main {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
+}
+
+.hero-secondary {
+    color: #E5E7EB
+    font-size: 18px;
 }
 
 .hero-image {
