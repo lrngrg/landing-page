@@ -50,7 +50,8 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding: 32px;
+    padding: 24px;
+    /* max-width: 400px; */
     /* gap: 16px; */
 }
 
@@ -78,7 +79,7 @@ a {
 }
 
 .hero-image {
-   
+   /* max-width: 400px; */
 }
 
 .one .img-container {
@@ -112,6 +113,7 @@ a {
 .two .text {
     color: grey;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .two .img-container {
@@ -123,4 +125,8 @@ a {
 
 .info-photo {
     max-width: 200px;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
