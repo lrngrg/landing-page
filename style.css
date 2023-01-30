@@ -80,10 +80,46 @@ a {
    
 }
 
-.img-container {
+.one .img-container {
     border: thin solid red;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
+.two {
+    border: solid thin red;
+    padding-bottom: 96px;
+}
+
+.info-header {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 48px;
+}
+
+.two img {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.two .text {
+    color: grey;
+    font-size: 18px;
+}
+
+.two .img-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+}
+
+.info-photo {
+    max-width: 200px;
+}
