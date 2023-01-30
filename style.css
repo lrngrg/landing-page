@@ -129,6 +129,7 @@ a {
 
 .three {
     background-color: #E5E7EB;
+    padding: 150px 300px;
 }
 
 .quote {
@@ -136,4 +137,11 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
 }
