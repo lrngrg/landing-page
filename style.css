@@ -178,3 +178,12 @@ button {
     border-radius: 8px;
     padding: 6px 32px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px;
+}
