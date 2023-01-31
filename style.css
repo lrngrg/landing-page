@@ -9,7 +9,7 @@ html, body {
     border: thin solid red;
 }
 
-.header, .hero {
+.one .header, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -21,7 +21,7 @@ a {
     font-weight: 300;
 }
 
-.header {
+.one .header {
     border: medium solid purple;
     font-size: 24px;
     color: #F9FAF8;
@@ -147,13 +147,34 @@ button {
 }
 
 .four .container {
-    bacground-color: #3882F6;
-    border: thin solid red;
+    background-color: #3882F6;
+    border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 100px 200px;
+    padding: 48px;
 }
 
-.call-container {
+.text-container {
     display: flex;
     flex-direction: column;
+}
+
+
+.four .header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.four .text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.four button {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px 32px;
 }
